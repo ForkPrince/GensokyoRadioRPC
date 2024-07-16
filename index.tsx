@@ -83,7 +83,7 @@ const settings = definePluginSettings({
 export default definePlugin({
     name: "GensokyoRadioRichPresence",
     description: "Discord rich presence for Gensokyo Radio!",
-    authors: [Devs.RyanCaoDev, { name: "Prince527", id: 364105797162237952n }],
+    authors: [Devs.RyanCaoDev, Devs.Prince527 ?? { name: "Prince527", id: 364105797162237952n }],
     reporterTestable: ReporterTestable.None,
 
     settingsAboutComponent() {
